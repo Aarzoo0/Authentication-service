@@ -8,6 +8,6 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://<eureka-server-ip>:8761/eureka/
+      defaultZone: http://127.0.0.1:8761/eureka/
     instance:
       preferIpAddress: 13.201.178.199 # Use IP address instead of hostname for registration
